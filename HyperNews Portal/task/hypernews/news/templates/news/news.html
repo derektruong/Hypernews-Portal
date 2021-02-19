@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News</title>
+    {% load static %}
+    <link rel="stylesheet" href={% static "css/base.css" %}>
+</head>
+<body>
+    <header>
+        <div class="logo"><h2>Hyper news</h2></div>
+
+        <form action="/news/" method="get">
+            <label for="search">Search: </label>
+            <input id="search" type="text" name="q">
+            <input type="submit" value="Search">
+        </form>
+    </header>
+
+    <div class="article">
+        {% for ele1 in created_list %}
+            <h4>{{ele1}}</h4>
+            <ul>
+                {% for ele2 in data %}
+                    {% if ele2.created|slice:":10" == ele1 %}
+                <li><a target="_blank" href="/news/{{ele2.link}}/">{{ ele2.title }}</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+    <p><a target="_blank" href="/news/create/">Create news</a></p>
+</body>
+</html>

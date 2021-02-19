@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2 {
+    color: #051d85;
+}
+
+form {
+    position: relative;
+    top: 17px;
+    right: 0;
+    font-size: 26px;
+}
+
+form input {
+    position: relative;
+    height: 20px;
+    bottom: 5px;
+}
+
+label {
+    font-family: "Segoe UI Black";
+}
+
+.article, a, h4 {
+    font-size: 1.5em;
+}

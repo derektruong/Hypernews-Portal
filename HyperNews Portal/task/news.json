@@ -1,0 +1,26 @@
+[
+    {
+        "created": "2020-02-09 14:15:10",
+        "text": "Text of the news 1",
+        "title": "News 1",
+        "link": 1
+    },
+    {
+        "created": "2020-02-10 14:15:10",
+        "text": "Text of the news 2",
+        "title": "News 2",
+        "link": 2
+    },
+    {
+        "created": "2020-02-09 16:15:10",
+        "text": "Text of the news 3",
+        "title": "News 3",
+        "link": 3
+    },
+    {
+        "created": "2021-02-19 15:39:36",
+        "text": "Fill your post 1",
+        "title": "Cho thu\u00ea ph\u00f2ng tr\u1ecd r\u1ed9ng r\u00e3i \u1edf Li\u00ean Chi\u1ec3u, an ninh, v\u0103n ho\u00e1.",
+        "link": 30444116865
+    }
+]

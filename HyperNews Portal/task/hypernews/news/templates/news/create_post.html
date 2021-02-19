@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create your post</title>
+</head>
+<body>
+<div class="submit-post">
+    <form action="/news/create/" method="post">
+        {% csrf_token %}
+        <label for="title">Your post's title: </label><br>
+        <input id="title" type="text" name="title" size="78"><br><br>
+        <label for="text">Your story: </label><br>
+        <textarea name="text" id="text" cols="80" rows="10">Fill your post</textarea><br><br>
+        <input type="submit" value="Post now" name="submit">
+    </form>
+    <p><a target="_blank" href="/news/">Back News</a></p>
+</div>
+</body>
+</html>

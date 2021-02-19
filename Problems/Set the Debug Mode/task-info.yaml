@@ -1,0 +1,14 @@
+type: code
+files:
+- name: main.py
+  visible: true
+  text: |-
+    IS_RELEASE_SERVER = ...
+    DEBUG = ...
+  learner_created: false
+feedback_link: https://hyperskill.org/learn/step/6659#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: Mon, 01 Feb 2021 14:31:29 UTC
+record: -1
